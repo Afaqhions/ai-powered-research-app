@@ -3,9 +3,13 @@ langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
 langchain-openai>=0.1.0
+langchain-groq>=0.1.0
 
 # OpenAI
 openai>=1.30.0
+
+# Groq LLM provider
+groq>=0.4.0
 
 # Tavily Search Tool
 tavily-python>=0.3.0
@@ -21,20 +25,14 @@ python-dotenv>=1.0.0
 # Async support (important for agents/tools)
 aiohttp>=3.9.0
 
-# Data handling (optional but useful in pipelines)
-pandas>=2.0.0
-
-# Token counting / text utils
-tiktoken>=0.6.0
+# UI Framework
+streamlit>=1.30.0
 
 # Logging / debugging (optional but recommended)
 rich>=13.7.0
 
 # Retry + robustness
 tenacity>=8.2.0
-
-# JSON handling improvements
-orjson>=3.9.0
 
 # Typing support (helps in bigger projects)
 pydantic>=2.5.0
