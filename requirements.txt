@@ -11,6 +11,9 @@ openai>=1.30.0
 # Groq LLM provider
 groq>=0.4.0
 
+# Google Gemini
+langchain-google-genai>=4.0.0
+
 # Tavily Search Tool
 tavily-python>=0.3.0
 
